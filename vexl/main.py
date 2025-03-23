@@ -33,7 +33,7 @@ def main():
         try:
             item = sys.argv[i]
             if item == "-h" or item == "--help":
-                print("Usage: nove [name of evnironment]")
+                print("Usage: vexl [name of evnironment]")
             else:
                 create_env(item)
             
